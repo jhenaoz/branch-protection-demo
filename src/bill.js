@@ -14,7 +14,7 @@ function calculateBill(items = []) {
 }
 
 function calculateTaxes(item) {
-    return item.price * 0.16;
+    return item.price * 0.20;
 }
 
 module.exports = {
