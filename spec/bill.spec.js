@@ -13,7 +13,7 @@ describe("Given a best buy store", () => {
       const resultado = calculateBill(items);
 
       // Assert
-      expect(resultado.taxes).toBe(16);
+      expect(resultado.taxes).toBe(19);
     });
 
     it("it should calculate the price", () => {
