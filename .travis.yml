@@ -1,0 +1,9 @@
+dist: trusty
+language: node_js
+cache:
+  directories:
+    - "node_modules"
+jobs:
+  inlcude:
+    - stage: test
+      script: npm test
